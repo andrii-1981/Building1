@@ -28,3 +28,7 @@ h2{
 .section__color-text {
     color: var(--section__subheading-color)
 }
+.section__services {
+    color: white;
+    background-color: black;
+}
