@@ -27,7 +27,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: none;
     transition: background 0.5s ease;
   }
 .buttom-effect:hover .overlay {
@@ -57,9 +57,14 @@ img {
 
 
 
-/*Background and color all block*/
-.section__services {
-    color: white;
-    background-color: black;
-    }
+/*Fixed background and color text*/
+.fixed__bg {
+  background: url(img/services/bg_services.jpeg)
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-color: black;
+  color: white;
+}
     
