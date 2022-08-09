@@ -16,6 +16,9 @@
     --text-color-white:#fff;
     --dot-color:rgb(209, 185, 151);
     --btn-color: rgb(209, 185, 151);
+    --color-header-location:#a9a9a9;
+    --btn-color-hover:#bca788;
+    --background-contacts-header: #141414;
     --shadow-color: rgba(0, 0, 0, 0.7);
     --main-white-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
@@ -38,4 +41,7 @@ h2{
     background-color: var(--btn-color);
     color: var(--text-color-white);
     text-decoration: none; 
+}
+.header__btn:hover {
+    background-color: var(--btn-color-hover);
 }
