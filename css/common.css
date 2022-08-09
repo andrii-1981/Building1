@@ -14,8 +14,10 @@
     --section__subheading-color: rgb(209, 185, 151);
     --grey-small-text-color: rgb(169, 169, 169);
     --text-color-white:#fff;
+    --color-header-location:#a9a9a9;
     --dot-color:#d1b997;
     --btn-color: #d1b997;
+    --background-contacts-header: #141414;
     --shadow-color: rgba(0, 0, 0, 0.7);
     --main-white-color: rgb(255, 255, 255);
     scroll-behavior: smooth;

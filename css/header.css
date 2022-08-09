@@ -27,6 +27,11 @@
     font-family: var(--font-lato);
     color: var(--text-color-white);
 }
+@media (min-width:767.5px) {
+    .header__title {
+        font-size: 63px;
+    }
+}
 .header__title> span {
     color: var(--dot-color);
 }
@@ -40,4 +45,32 @@
 .header__btn {
     margin-top: 50px;
     display: inline-block;
+}
+.contacts__container {
+    background: var(--background-contacts-header);
+    padding: 40px 20px;
+    color: var(--text-color-white);
+}
+.contacts__text {
+    font-size: 20px;
+    font-family: var(--font-soure-sans);
+}
+.contacts__tel, .contacts__mail, .contacts__location {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contacts__tel a, .contacts__mail a {
+    font-size: 1rem;
+    font-family: var(--font-soure-sans);
+    text-decoration: none;
+    color: var(--text-color-white);
+}
+.contacts__container img {
+    width: 18px;
+    height: 18px;
+}
+.contacts__location p {
+    color: var(--color-header-location);
 }
