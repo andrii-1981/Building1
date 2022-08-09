@@ -1,6 +1,7 @@
+
+
 .services__container-card {
     width: 285px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -32,13 +33,13 @@ img {
   }
 .buttom-effect:hover .overlay {
     display: block;
-    background: rgba(0, 0, 0, 0.7);
+    background: var(--shadow-color);
 }
 .services-buttom {
   position: absolute;
   width: 100%;
   left:0;
-  top: 45%; /* Top space */
+  top: 45%; 
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;
@@ -46,8 +47,8 @@ img {
 .services-buttom a {
   padding: 15px 40px; 
   text-align: center;
-  background: rgb(209, 185, 151); /* Buttom`s color */
-  color: white; /* Цвет текста */
+  background: var(--section__subheading-color);
+  color: white;
   z-index: 1;
   text-decoration: none;
 }
@@ -59,7 +60,7 @@ img {
 
 /*Fixed background and color text*/
 .fixed__bg {
-  background: url(img/services/bg_services.jpeg)
+  background: url(../img/services/bg_services.jpeg)
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
