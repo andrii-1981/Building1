@@ -14,8 +14,8 @@
     --section__subheading-color: rgb(209, 185, 151);
     --grey-small-text-color: rgb(169, 169, 169);
     --text-color-white:#fff;
-    --dot-color:#d1b997;
-    --btn-color: #d1b997;
+    --dot-color:rgb(209, 185, 151);
+    --btn-color: rgb(209, 185, 151);
     --shadow-color: rgba(0, 0, 0, 0.7);
     --main-white-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
