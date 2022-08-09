@@ -19,6 +19,11 @@
 .links__container {
     display: none;
 }
+@media (min-width:991.5px) {
+    .links__container {
+        display: flex;
+    }
+}
 .article__container {
     padding: 130px 0px;
 }
