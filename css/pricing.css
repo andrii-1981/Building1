@@ -6,7 +6,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 15px;
+    row-gap: 28px;
 }
 
 .section__heading {
@@ -110,5 +110,5 @@
 
 .pricing__button:hover,
 .pricing__button:active {
-    background-color: var(--section__subheading-color);
+    background-color: #bca788;
 }
