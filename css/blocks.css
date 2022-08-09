@@ -1,0 +1,13 @@
+.section__subheading {
+    color: var(--section__subheading-color);
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 700px;
+    line-height: 25.2px;
+    text-align: left;
+    font-weight: bold;
+}
+.section__color-text {
+    color: var(--section__subheading-color);
+}
+

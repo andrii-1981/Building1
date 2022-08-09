@@ -60,7 +60,11 @@ img {
 
 /*Fixed background and color text*/
 .fixed__bg {
+<<<<<<< HEAD
   background: url(../img/services/bg_services.jpeg)
+=======
+  background: url(img/services/bg_services.jpeg);
+>>>>>>> 730b9293a5cf17302b609436463716d83b19fe94
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
