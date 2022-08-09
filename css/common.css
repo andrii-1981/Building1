@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap'); /* Source Sans Pro (як в макеті) */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');  /* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');/* Source Sans Pro (400) */
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +8,14 @@
 }
 
 :root{
-    font-family: 'Source Sans Pro', sans-serif;
+    --font-lato: 'Lato', sans-serif;
+    --font-soure-sans: 'Source Sans Pro', sans-serif;
+    --font-family: 'Source Sans Pro', sans-serif;
     --section__subheading-color: rgb(209, 185, 151);
     --grey-small-text-color: rgb(169, 169, 169);
+    --text-color-white:#fff;
+    --dot-color:#d1b997;
+    --btn-color: #d1b997;
 <<<<<<< HEAD
     --shadow-color: rgba(0, 0, 0, 0.7);
 =======
