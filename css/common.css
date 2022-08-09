@@ -16,18 +16,9 @@
     --text-color-white:#fff;
     --dot-color:#d1b997;
     --btn-color: #d1b997;
-<<<<<<< HEAD
     --shadow-color: rgba(0, 0, 0, 0.7);
-=======
     --main-white-color: rgb(255, 255, 255);
->>>>>>> 730b9293a5cf17302b609436463716d83b19fe94
     scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 
@@ -39,4 +30,12 @@ h2{
     font-weight: 900;
     text-transform: none;
 }
-
+.header__btn {
+    font-size: 15.4px;
+    font-family: var(--font-soure-sans);
+    font-weight: 900;
+    padding: 18px 35px;
+    background-color: var(--btn-color);
+    color: var(--text-color-white);
+    text-decoration: none; 
+}

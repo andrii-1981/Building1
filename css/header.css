@@ -2,19 +2,19 @@
     background-image: url(../img/header/header-background.jpeg);
     background-size: cover;
     background-position: center;
+   
+}
+.background-darkened {
+    background-color:rgba(0, 0, 0, 0.5);
     padding: 0 24px;
 }
 .nav__container {
-    min-height: 95px;
+    padding: 20px 0;
 }
 .nav__logo-container {
-    display: inline;
-}
-.nav__logo-container>a {
-    height: 55px;
-}
-.nav__logo-container>a>img {
-    height: 55px;
+    display: inline-block;
+    height: 56px;
+    width: 174px;
 }
 .links__container {
     display: none;
@@ -35,4 +35,9 @@
     font-family: var(--font-soure-sans);
     color: var(--text-color-white);
     font-weight: 400;
+    margin-top: 35px;
+}
+.header__btn {
+    margin-top: 50px;
+    display: inline-block;
 }
