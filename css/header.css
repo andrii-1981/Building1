@@ -37,6 +37,9 @@
         color: var(--text-color);
         margin-right: 15px;
     }
+    .header__text-links a:hover {
+        color: var(--btn-color);
+    }
 }
 .article__container {
     padding: 130px 24px;
