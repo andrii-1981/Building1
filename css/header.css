@@ -40,6 +40,17 @@
     .header__text-links a:hover {
         color: var(--btn-color);
     }
+    .header__social-links a {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        border: 1px solid var(--btn-color);
+        text-align: center;
+    }
+    .header__social-links a img{
+        width: 13px;
+        height: -1px;
+    }
 }
 .article__container {
     padding: 130px 24px;
