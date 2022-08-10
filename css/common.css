@@ -9,15 +9,21 @@
 
 :root{
     --font-header-title: 'Lato', sans-serif;
+    --text-color: #fff;
+    --dot-color:rgb(209, 185, 151);
+    --btn-color: rgb(209, 185, 151);
+    --btn-color-hover:#bca788;
+    --color-header-location:#a9a9a9;
+    --background-contacts-header: #141414;
     --font-family: 'Source Sans Pro', sans-serif;
     --section__subheading-color: rgb(209, 185, 151);
     --grey-small-text-color: rgb(169, 169, 169);
-    --text-color:#fff;
-    --color-header-location:#a9a9a9;
-    --dot-color:#d1b997;
-    --btn-color: #d1b997;
-    --btn-color-hover:#bca788;
-    --background-contacts-header: #141414;
+<<<<<<< HEAD
+    
+=======
+    --text-color-white:#fff;
+    
+>>>>>>> 7bae65727963c1abb6a8be6f3f48d341d7a559e1
     --shadow-color: rgba(0, 0, 0, 0.7);
     --main-white-color: rgb(255, 255, 255);
     scroll-behavior: smooth;

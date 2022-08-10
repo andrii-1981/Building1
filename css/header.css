@@ -48,8 +48,11 @@
     margin-top: 35px;
 }
 .header__btn {
+    font-family: var(--font-family);
     margin-top: 50px;
     display: inline-block;
+    color: var(--text-color);
+    font-weight: 700;
 }
 .header__btn:hover{
 
