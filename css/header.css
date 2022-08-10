@@ -20,6 +20,7 @@
 @media (min-width:991.5px) {
     .links__container {
         display: flex;
+        align-items: center;
     }
     .nav__container {
         background-color:var(--background-header-nav);
@@ -46,6 +47,7 @@
         height: 26px;
         border: 1px solid var(--btn-color);
         text-align: center;
+        margin-right: 10px;
     }
     .header__social-links a img{
         width: 13px;
