@@ -12,3 +12,12 @@
 .contact__map{
     width: 375px;
 }
+.section__heading{
+    color: var(--main-white-color);
+    font-family: var(--font-header-title);
+}
+.contact__slider img{
+    width: 300px;
+    height: 212px;
+    padding: 10px;
+}
