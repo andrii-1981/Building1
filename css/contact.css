@@ -1,23 +1,71 @@
 .section__contact{
     padding-top: 55px;
     padding-bottom: 25px;
-    background:#141414
+    background:#141414;
 }
+
+
 .card__price-description {
     color: white;
     font-size: 16px;
     font-weight: 600;
-    padding: 0 0 28px 28px;
+    padding: 0 0 28px 0px;
 }
 .contact__map{
-    width: 375px;
+    width: 535px;
+    margin: 51px;
 }
 .section__heading{
-    color: var(--main-white-color);
-    font-family: var(--font-header-title);
+        font-family: 'Lato', sans-serif;
+        color: var(--main-white-color);
+        line-height: 1.1;
+        font-size: 42px;
+        font-weight: 900;
+        text-transform: none;
 }
 .contact__slider img{
     width: 300px;
     height: 212px;
     padding: 10px;
+}
+.contact__slider{
+    margin: 50px;
+}
+.contact__form{
+    display:flex;
+    line-height: 25.6px;
+    width: 585px;
+    min-height: 735px;
+    margin: 165px 0px 0px 350px;
+}
+.contact__inputs, .contact__textarea{
+    display: block;
+    width: 100%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-radius: 0px;
+    border: 0;
+    color: var(--main-white-color);
+    border-color: #191919;
+    background-color: #141414;
+    font-family: var(--font-family);
+    padding: 14px 26px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.contact__textarea{
+    width: 560px;
+    height: 200px ;
+    resize: none;
+}
+.contact__btn{
+    font-family: var(--font-family);
+    margin-top: 50px;
+    display: inline-block;
+    color: var(--text-color);
+    font-weight: 700;
+    background-color: #bca788;
+    width: 100%;
+    height: 40px;
+    border: 0;
 }
