@@ -29,8 +29,8 @@
 }
 .header__title {
     font-size: 56px;
-    font-family: var(--font-lato);
-    color: var(--text-color-white);
+    font-family: var(--font-header-title);
+    color: var(--text-color);
 }
 @media (min-width:767.5px) {
     .header__title {
@@ -42,8 +42,8 @@
 }
 .header__subtitle {
     font-size: 20px;
-    font-family: var(--font-soure-sans);
-    color: var(--text-color-white);
+    font-family: var(--font-family);
+    color: var(--text-color);
     font-weight: 400;
     margin-top: 35px;
 }
@@ -52,17 +52,17 @@
     display: inline-block;
 }
 .header__btn:hover{
-    ba
+
 }
 .contacts__container {
     background: var(--background-contacts-header);
     padding: 40px 20px;
-    color: var(--text-color-white);
+    color: var(--text-color);
 }
 
 .contacts__text {
     font-size: 20px;
-    font-family: var(--font-soure-sans);
+    font-family: var(--font-family);
 }
 .contacts__tel, .contacts__mail, .contacts__location {
     margin-top: 50px;
@@ -73,9 +73,9 @@
 
 .contacts__tel a, .contacts__mail a {
     font-size: 1rem;
-    font-family: var(--font-soure-sans);
+    font-family: var(--font-family);
     text-decoration: none;
-    color: var(--text-color-white);
+    color: var(--text-color);
 }
 .contacts__container img {
     width: 18px;

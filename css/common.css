@@ -8,12 +8,11 @@
 }
 
 :root{
-    --font-lato: 'Lato', sans-serif;
-    --font-soure-sans: 'Source Sans Pro', sans-serif;
+    --font-header-title: 'Lato', sans-serif;
     --font-family: 'Source Sans Pro', sans-serif;
     --section__subheading-color: rgb(209, 185, 151);
     --grey-small-text-color: rgb(169, 169, 169);
-    --text-color-white:#fff;
+    --text-color:#fff;
     --color-header-location:#a9a9a9;
     --dot-color:#d1b997;
     --btn-color: #d1b997;
