@@ -8,7 +8,7 @@
 .section__feedback-second,
 .section__feedback-third{
     margin: 15px;
-    width: 45%;
+    width: 85%;
     padding: 50px;
 }
 
@@ -62,4 +62,12 @@
 
 .profile-position{
     color: var(--main-white-color);
+}
+
+@media(min-width: 767px) {
+    .section__feedback-first,
+    .section__feedback-second,
+    .section__feedback-third {
+        width: 45%;
+    }
 }
