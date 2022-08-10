@@ -1,7 +1,7 @@
 .section__contact{
     padding-top: 55px;
     padding-bottom: 25px;
-    background:#141414
+    background:#141414;
 }
 .card__price-description {
     color: white;
@@ -10,7 +10,8 @@
     padding: 0 0 28px 28px;
 }
 .contact__map{
-    width: 375px;
+    width: 535px;
+    margin: 51px;
 }
 .section__heading{
     color: var(--main-white-color);
@@ -20,4 +21,10 @@
     width: 300px;
     height: 212px;
     padding: 10px;
+}
+.contact__form{
+    display:flex;
+    line-height: 25.6px;
+    width: 585px;
+    height: 735px;
 }
