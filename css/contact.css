@@ -35,3 +35,18 @@
     width: 585px;
     height: 735px;
 }
+.contact__inputs, .contact__textarea{
+    display: block;
+    width: 100%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-radius: 0px;
+    border: 0;
+    color: var(--main-white-color);
+    border-color: #191919;
+    background-color: #141414;
+    font-family: var(--font-family);
+    padding: 14px 26px;
+    font-size: 14px;
+    line-height: 1.2;
+}
