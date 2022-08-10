@@ -2,11 +2,9 @@
     background-image: url(../img/header/header-background.jpeg);
     background-size: cover;
     background-position: center;
-   
 }
 .background-darkened {
-    background-color:rgba(0, 0, 0, 0.5);
-    padding: 0 24px;
+    background-color:var(--background-darkened);
 }
 .nav__container {
     padding: 20px 0;
@@ -23,9 +21,24 @@
     .links__container {
         display: flex;
     }
+    .nav__container {
+        background-color:var(--background-header-nav);
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    .header__text-links a {
+        font-size: 16px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--text-color);
+    }
 }
 .article__container {
-    padding: 130px 0px;
+    padding: 130px 24px;
 }
 .header__title {
     font-size: 56px;
@@ -54,15 +67,11 @@
     color: var(--text-color);
     font-weight: 700;
 }
-.header__btn:hover{
-
-}
 .contacts__container {
     background: var(--background-contacts-header);
-    padding: 40px 20px;
+    padding: 40px 24px;
     color: var(--text-color);
 }
-
 .contacts__text {
     font-size: 20px;
     font-family: var(--font-family);
@@ -73,12 +82,14 @@
     align-items: center;
     gap: 10px;
 }
-
 .contacts__tel a, .contacts__mail a {
-    font-size: 1rem;
+    font-size: 16px;
     font-family: var(--font-family);
     text-decoration: none;
     color: var(--text-color);
+}
+.contacts__tel a:hover, .contacts__mail a:hover{
+    color: rgb(96, 197, 164);
 }
 .contacts__container img {
     width: 18px;
