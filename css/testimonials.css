@@ -1,15 +1,15 @@
+.section__feedbacks{
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .section__feedback-first,
 .section__feedback-second,
 .section__feedback-third{
     margin: 15px;
     width: 45%;
     padding: 50px;
-}
-
-.section__feedbacks{
-    display: flex;  
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 #testimonials{
