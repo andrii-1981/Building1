@@ -2,7 +2,10 @@
     padding-top: 55px;
     padding-bottom: 25px;
     background:#141414;
+ 
 }
+
+
 .card__price-description {
     color: white;
     font-size: 16px;
@@ -33,7 +36,8 @@
     display:flex;
     line-height: 25.6px;
     width: 585px;
-    height: 735px;
+    min-height: 735px;
+    margin: auto;
 }
 .contact__inputs, .contact__textarea{
     display: block;
@@ -49,4 +53,20 @@
     padding: 14px 26px;
     font-size: 14px;
     line-height: 1.2;
+}
+.contact__textarea{
+    width: 560px;
+    height: 200px ;
+    resize: none;
+}
+.contact__btn{
+    font-family: var(--font-family);
+    margin-top: 50px;
+    display: inline-block;
+    color: var(--text-color);
+    font-weight: 700;
+    background-color: #bca788;
+    width: 100%;
+    height: 40px;
+    border: 0;
 }
