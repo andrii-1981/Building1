@@ -7,20 +7,27 @@
     color: white;
     font-size: 16px;
     font-weight: 600;
-    padding: 0 0 28px 28px;
+    padding: 0 0 28px 0px;
 }
 .contact__map{
     width: 535px;
     margin: 51px;
 }
 .section__heading{
-    color: var(--main-white-color);
-    font-family: var(--font-header-title);
+        font-family: 'Lato', sans-serif;
+        color: var(--main-white-color);
+        line-height: 1.1;
+        font-size: 42px;
+        font-weight: 900;
+        text-transform: none;
 }
 .contact__slider img{
     width: 300px;
     height: 212px;
     padding: 10px;
+}
+.contact__slider{
+    margin: 50px;
 }
 .contact__form{
     display:flex;

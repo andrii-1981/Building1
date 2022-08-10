@@ -6,6 +6,7 @@
     line-height: 25.2px;
     text-align: left;
     font-weight: bold;
+    font-family: var(--font-family);
 }
 .section__color-text {
     color: var(--section__subheading-color);
