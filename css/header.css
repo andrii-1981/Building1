@@ -49,6 +49,7 @@
     }
     .header__social-links a img{
         width: 13px;
+        height: inherit;
     }
 }
 .article__container {
