@@ -12,3 +12,7 @@
 .contact__map{
     width: 375px;
 }
+.section__heading{
+    color: var(--main-white-color);
+    font-family: var(--font-header-title);
+}
