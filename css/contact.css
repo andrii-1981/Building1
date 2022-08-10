@@ -2,7 +2,6 @@
     padding-top: 55px;
     padding-bottom: 25px;
     background:#141414;
- 
 }
 
 
@@ -37,7 +36,7 @@
     line-height: 25.6px;
     width: 585px;
     min-height: 735px;
-    margin: auto;
+    margin: 165px 0px 0px 350px;
 }
 .contact__inputs, .contact__textarea{
     display: block;
