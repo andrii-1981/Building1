@@ -1,0 +1,43 @@
+.welcome-section {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: var(--background-contacts-header);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.section__title {
+    font-size: 42px;
+    margin-top: 20px;
+}
+
+.section__description {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.feature-container {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.feature {
+    display: flex;
+    justify-content: left;
+}
+
+.feature__text-block {
+    margin-left: 15px
+}
+
+.feature__title {
+    margin-bottom: 15px;
+}
+
+.feature__text {
+    color: gray;
+    font-size: 14px;
+    line-height: 1,5em;
+}
