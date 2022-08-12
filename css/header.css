@@ -9,6 +9,11 @@
 .nav__container {
     padding: 20px 24px;
 }
+@media (min-width:991.5px) {
+    .nav__container {
+        padding: 20px 40px;
+    }
+}
 .nav__logo-container {
     display: inline-block;
     height: 56px;
@@ -76,6 +81,11 @@
 @media (min-width:767.5px) {
     .header__title {
         font-size: 63px;
+    }
+}
+@media (min-width:991.5px) {
+    .header__title {
+        font-size: 70px;
     }
 }
 .header__title> span {
