@@ -1,5 +1,8 @@
-.section__pricing {
+.section__pricing-container {
     background-color: var(--main-background-color);
+}
+
+.section__pricing {
     color: var(--text-color-white);
     font-family: var(--font-family);
     padding: 56px 22px 56px 22px;
@@ -40,7 +43,7 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 32px;
-    width: 340px;
+    /* width: 340px; */
 }
 
 .pricing__pricing-card {
@@ -117,4 +120,20 @@
 .pricing__button:hover,
 .pricing__button:active {
     background-color: var(--btn-color-hover);
+}
+
+@media (min-width: 780px) {
+
+    .pricing__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 1043px) {
+
+    .section__pricing {
+        grid-template-columns: 1fr 2fr;
+        gap: 30px;
+    }
 }
