@@ -7,7 +7,7 @@
     background-color:var(--background-darkened);
 }
 .nav__container {
-    padding: 20px 0;
+    padding: 20px 24px;
 }
 .nav__logo-container {
     display: inline-block;
