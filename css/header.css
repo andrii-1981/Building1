@@ -63,6 +63,11 @@
 .article__container {
     padding: 130px 24px;
 }
+@media (min-width:991.5px) {
+    .article__container{
+        padding: 250px 40px 270px;
+    } 
+}
 .header__title {
     font-size: 56px;
     font-family: var(--font-header-title);
@@ -94,6 +99,11 @@
     background: var(--background-contacts-header);
     padding: 40px 24px;
     color: var(--text-color);
+}
+@media (min-width:991.5px) {
+    .contacts__container {
+        padding: 40px 40px;
+    }
 }
 .contacts__text {
     font-size: 20px;
