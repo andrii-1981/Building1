@@ -30,13 +30,15 @@
 }
 .contact__slider{
     margin: 50px;
+    display: flex;
+
 }
 .contact__form{
     display:flex;
     line-height: 25.6px;
     width: 585px;
     min-height: 735px;
-    margin: 165px 0px 0px 350px;
+    margin: 0px 0px 0px 400px;
 }
 .contact__inputs, .contact__textarea{
     display: block;
