@@ -6,11 +6,12 @@
 .background-darkened {
     background-color:var(--background-darkened);
 }
-.nav__container {
+.nav {
     padding: 20px 24px;
+    background-color:var(--background-header-nav);
 }
 @media (min-width:991.5px) {
-    .nav__container {
+    .nav {
         padding: 20px 40px;
     }
 }
@@ -28,7 +29,7 @@
         align-items: center;
     }
     .nav__container {
-        background-color:var(--background-header-nav);
+       
         padding: 0 24px;
         display: flex;
         align-items: center;
