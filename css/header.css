@@ -49,6 +49,12 @@
         text-align: center;
         margin-right: 10px;
     }
+    .header__social-links a:hover {
+        width: 30px;
+        height: 30px;
+        transition: all 0.3s ease;
+        
+    }
     .header__social-links a img{
         width: 13px;
         height: inherit;
