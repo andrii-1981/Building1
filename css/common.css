@@ -10,11 +10,15 @@
 :root{
     --font-header-title: 'Lato', sans-serif;
     --text-color: #fff;
+    --secondary-font-color: #a9a9a9;
+    --icons-color: #d1b997;
     --dot-color:rgb(209, 185, 151);
     --btn-color: rgb(209, 185, 151);
+    --btn-color-hover:#bca788;
     --background-header-nav:rgba(0, 0, 0, 0.7);
     --background-darkened:rgba(0, 0, 0, 0.5);
-    --btn-color-hover:#bca788;
+    --main-background-color: #000;
+    --cards-background-color: #191919;
     --color-header-location:#a9a9a9;
     --background-contacts-header: #141414;
     --font-family: 'Source Sans Pro', sans-serif;
@@ -35,3 +39,4 @@ h2{
     font-weight: 900;
     text-transform: none;
 }
+

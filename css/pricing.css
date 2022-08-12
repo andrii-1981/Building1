@@ -1,5 +1,5 @@
 .section__pricing {
-    background-color: #000;
+    background-color: var(--main-background-color);
     color: var(--text-color-white);
     font-family: var(--font-family);
     padding: 56px 22px 56px 22px;
@@ -33,7 +33,7 @@
 
 .floors-plan:hover,
 .floors-plan:active {
-    color: #d1b997;
+    color: var(--btn-color-hover);
 }
 
 .pricing__cards {
@@ -44,7 +44,7 @@
 }
 
 .pricing__pricing-card {
-    background-color: #191919;
+    background-color: var(--cards-background-color);
 }
 
 .card__title {
@@ -54,14 +54,14 @@
 }
 
 .pricing-icon {
-    color: #d1b997;
+    color: var(--icons-color);
     padding-left: 28px;
     padding-bottom: 28px;
     width: 96px;
 }
 
 .cards__price-description {
-    color: #a9a9a9;
+    color: var(--secondary-font-color);
     font-size: 16px;
     font-weight: 600;
     padding: 0 0 28px 28px;
@@ -75,7 +75,7 @@
 }
 
 .divider-component {
-    background-color: #141414;
+    background-color: var(--background-contacts-header);
     height: 5px;
     width: 15%;
     display: block;
@@ -85,7 +85,7 @@
 .card__list {
     list-style: none;
     padding: 28px 0 32px 28px;
-    color: #a9a9a9;
+    color: var(--secondary-font-color);
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -103,7 +103,7 @@
 
 .pricing__button:link,
 .pricing__button:visited {
-    background-color: #d1b997;
+    background-color: var(--btn-color);
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -116,5 +116,5 @@
 
 .pricing__button:hover,
 .pricing__button:active {
-    background-color: #bca788;
+    background-color: var(--btn-color-hover);
 }
