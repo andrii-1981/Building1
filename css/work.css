@@ -1,8 +1,15 @@
-.section__work {
+.section__work-container {
     background-color: var(--main-background-color);
+}
+
+.section__work {
     color: var(--text-color-white);
     font-family: var(--font-family);
     padding: 56px 22px 56px 22px;
+}
+
+.section__work-title {
+    max-width: 575px;
 }
 
 .section__heading {
@@ -33,4 +40,15 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
+}
+
+@media (min-width: 780px) {
+    .section__work-text {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .section__work-title {
+        max-width: 710px;
+    }
 }

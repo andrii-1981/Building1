@@ -43,7 +43,6 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 32px;
-    align-items: center;
     /* width: 340px; */
 }
 
@@ -137,5 +136,4 @@
         grid-template-columns: 1fr 2fr;
         gap: 30px;
     }
-
 }
