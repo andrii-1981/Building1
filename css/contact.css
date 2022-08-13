@@ -3,23 +3,28 @@
     
 }
 .contact-main__section{
-    margin: 0px 25px 15px 25px;
+    margin: 0px 25px 15px 15px;
     padding: 25px 0;
     margin: auto;
+}
+#contacts_us{
+    margin-left: 15px;
 }
 .section__heading{
     color: var(--text-color-white);
     size: 34px;
     font-family: var(--font-header-title);
+    padding-left: 15px;
 }
 .card__price-description{
     color: var(--text-color-white);
     size: 18px;
     font-family: var(--font-family);
     padding-bottom: 20px;
+    padding-left: 15px;
 }
 .contact__map{
-    width: 300px;
+    width: 360px;
     height: 700px;
     margin: auto;
 }
@@ -55,6 +60,7 @@
     border: 0;
     background-color: var(--section__subheading-color);
     color: var(--text-color-white);
+
 
 }   
 .contact__slider > img{
