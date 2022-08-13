@@ -6,9 +6,6 @@
 .background-darkened {
     background-color:var(--background-darkened);
 }
-.nav {
-    background-color:var(--background-header-nav);
-}
 .nav__container {
     padding: 0 24px;
     display: flex;
@@ -21,10 +18,30 @@
     height: 56px;
     width: 174px;
 }
+.burger span {
+    border-bottom: 2px solid var(--text-color);
+    width: 24px;
+    display: block;
+    translate: all 0.5s;
+}
+.burger span:nth-child(1){
+    position: relative;
+    top: -6px;
+}
+.burger span:nth-child(3){
+    position: relative;
+    top: 6px;
+}
+.burger__active {
+    
+}
 .links__container {
     display: none;
 }
 @media (min-width:991.5px) {
+    .nav {
+        background-color:var(--background-header-nav);
+    }
     .links__container {
         display: flex;
         align-items: center;
@@ -52,7 +69,6 @@
         width: 30px;
         height: 30px;
         transition: all 0.3s ease;
-        
     }
     .header__social-links a img{
         width: 13px;
