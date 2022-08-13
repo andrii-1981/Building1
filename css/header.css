@@ -27,7 +27,7 @@
     border-bottom: 2px solid var(--text-color);
     width: 24px;
     display: block;
-    translate: all 0.5s;
+    transition:  all 0.5s;
 }
 .burger span:nth-child(1){
     position: relative;
@@ -38,7 +38,7 @@
     top: 6px;
 }
 .burger.active span:first-of-type {
-    opacity: 0;
+   opacity: 0;
 }
 .burger.active span:nth-child(2) {
     transform: translate(0, 200%) rotate(-45deg);
