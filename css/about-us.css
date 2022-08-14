@@ -1,0 +1,48 @@
+.about_us-section {
+    background-color: var(--main-background-color);
+    padding: 40px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.about-us__img {
+    max-width: 570px;
+    padding: 0 15px;
+}
+
+.about_us-container {
+    padding: 38px 0;
+}
+
+.busyness__list {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--color-header-location);
+    text-align: left;
+    padding: 30px 0 30px 0 ;
+}
+
+.busyness__item {
+    var(--color-header-location);
+    font-size: 16px;
+    padding: 22px 0 ;
+    
+    
+
+}
+.section__ctext {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--color-header-location);
+    text-align: left;
+    padding: 22px 0;   
+}
+.busyness__item-img {
+width: 15px;
+}
+.link__button {
+background-color: ; 
+font-size: 15.4px;
+text-align: center;   
+}
+

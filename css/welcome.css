@@ -3,24 +3,29 @@
     padding-bottom: 50px;
     padding-left: 24px;
     padding-right: 24px;
-    background-color: var(--background-contacts-header);
+    background-color: var(--main-background-color);
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--font-header-title);
 }
 
 .section__title {
     font-size: 42px;
     margin-top: 20px;
+    color: var(--text-color);
+
 }
 
 .section__description {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 25px;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-weight: 400;
 }
 
 .feature-container {
-  display: flex; 
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .feature {
@@ -29,7 +34,8 @@
 }
 
 .feature__text-block {
-    margin-left: 15px
+    margin-left: 15px;
+    max-width: 284px;
 }
 
 .feature__title {
@@ -37,7 +43,10 @@
 }
 
 .feature__text {
-    color: gray;
-    font-size: 14px;
-    line-height: 1,5em;
+    color: var(--color-header-location);
+    font-size: 16px;
+    line-height: 25, 6px;
+    font-family: var(--font-family);
+    text-align: left;
+    letter-spacing: normal;
 }
