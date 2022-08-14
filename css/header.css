@@ -21,6 +21,9 @@
 }
 .burger {
     z-index: 7;
+    cursor: pointer;
+    width: 24px;
+    height: 26px;
 }
 .burger span {
     border-bottom: 2px solid var(--text-color);
@@ -30,7 +33,7 @@
 }
 .burger span:nth-child(1){
     position: relative;
-    top: -6px;
+    top: 18px;
 }
 .burger span:nth-child(3){
     position: relative;
