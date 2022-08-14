@@ -1,8 +1,8 @@
 .welcome-section {
-    padding-top: 90px;
-    padding-bottom: 50px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-top: 98px;
+    padding-bottom: 54px;
+    padding-left: 90px;
+    padding-right: 90px;
     background-color: var(--main-background-color);
     color: white;
     font-family: var(--font-header-title);
@@ -12,15 +12,16 @@
     font-size: 42px;
     margin-top: 20px;
     color: var(--text-color);
-
 }
 
-.section__description {
-    font-size: 20px;
+.welcome__description {
+    font-size: 18px;
     margin-top: 25px;
     font-family: var(--font-family);
     color: var(--text-color);
     font-weight: 400;
+    margin-bottom: 58px;
+    line-height: 28.8px;
 }
 
 .feature-container {
@@ -40,13 +41,19 @@
 
 .feature__title {
     margin-bottom: 15px;
+    font-size: 22px;
+    margin-bottom: 24px;
 }
 
 .feature__text {
     color: var(--color-header-location);
     font-size: 16px;
-    line-height: 25, 6px;
+    line-height: 25.6px;
     font-family: var(--font-family);
     text-align: left;
     letter-spacing: normal;
+}
+
+.dot-color {
+    color: var(--dot-color);
 }
