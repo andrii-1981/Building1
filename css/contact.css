@@ -74,14 +74,14 @@
         margin: auto;
     }
     .contact-main__section{
-        width: 647px;
-        margin-right: 12px;
+        width: 665px;
+        margin-right: 0px;
     }
     .contact__map{
         width: 600px;
         height: 700px;
         margin: auto;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 }
 @media (min-width:600px){
