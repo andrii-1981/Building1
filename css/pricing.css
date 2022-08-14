@@ -22,8 +22,13 @@
 .section__description {
     font-size: 18px;
     line-height: 1.5;
-    padding-bottom: 20px;
+    padding: 0 20px;
 }
+
+/* .pdf-icon {
+    color: var(--text-color-white);
+    width: 22px;
+} */
 
 .floors-plan:link,
 .floors-plan:visited {

@@ -10,18 +10,19 @@
 #contacts_us{
     margin-left: 15px;
 }
-.section__heading{
+.contact-section__heading{
     color: var(--text-color-white);
     size: 34px;
     font-family: var(--font-header-title);
     padding-left: 15px;
+    padding: 20px;
 }
-.card__price-description{
+.section-card__price-description{
     color: var(--text-color-white);
     size: 18px;
     font-family: var(--font-family);
     padding-bottom: 20px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .contact__map{
     width: 360px;
@@ -73,14 +74,14 @@
         margin: auto;
     }
     .contact-main__section{
-        width: 560px;
-        margin-right: 12px;
+        width: 665px;
+        margin-right: 0px;
     }
     .contact__map{
-        width: 535px;
+        width: 600px;
         height: 700px;
         margin: auto;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 }
 @media (min-width:600px){

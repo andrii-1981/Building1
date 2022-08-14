@@ -1,0 +1,71 @@
+.about_us-section {
+    background-color: var(--background-contact-color);
+    padding: 0 24px;
+}
+
+.about-us__img {
+  width: 272px;  
+}
+
+.about_us-container {
+    padding: 38px 0 15px 0;
+}
+
+.busyness__list {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--color-header-location);
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.busyness__item {
+    font-size: 16px;
+    list-style-type: none;
+    margin-bottom: 22px;
+}
+
+.section__ctext {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--color-header-location);
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.busyness__item-img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.link__button {
+    background-color: var(--btn-color);
+    font-size: 15.4px;
+    text-align: center;
+    width: 155px;
+    height: 51px;
+    margin-bottom: 34px;
+}
+
+.link__button:hover {
+    background-color: var(--btn-color-hover);
+}
+
+@media (min-width:750px) {  
+    .about_us-section {
+        background-color: var(--background-contact-color);
+        padding: 40px 90px 40px 90px;
+    }
+
+    .about-us__img {
+        max-width: 570px;
+        padding: 0 15px;
+    }
+
+    .about_us-section {
+        background-color: var(--background-contact-color);
+        padding: 40px 90px 40px 90px;
+        display: flex;
+        justify-content: left;
+    }
+}
