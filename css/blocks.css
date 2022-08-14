@@ -8,7 +8,14 @@
     font-weight: bold;
     font-family: var(--font-family);
 }
+
 .section__color-text {
     color: var(--section__subheading-color);
+}
+
+.section__heading{
+    font-family: var(--font-header-title);
+    font-size: 38px;
+    line-height: 1.1;
 }
 
