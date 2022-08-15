@@ -1,18 +1,19 @@
+.section_services-img {
+  padding-top: 145.68%;
+}
 
-
-.services__container-card {
-    width: 285px;
+.services__slider-card {
+    width: 327px;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 15px;
 
 }
-.services__container {
+.services__slider {
     display: flex;
     flex-direction: row;
 
 }
-
 img {
     max-width: 100%;
     height: auto;
@@ -22,7 +23,6 @@ img {
     position: relative;
     width: 100%;
 }
-
 .overlay {
     position: absolute;
     top: 0;
@@ -61,7 +61,10 @@ img {
 
 /*Fixed background and color text*/
 .fixed__bg {
-  padding-left: 24px;
+  padding: 100px 130px 130px 130px;
   min-height: 750px;
-  background: url(../img/services/bg_services.jpeg) center center/cover no-repeat fixed;
+  background: url(../img/services/bg_services.jpeg) 50% 50% / cover no-repeat fixed;
+  color: white;
+  font-family: var(--font-header-title);
+ 
 }
