@@ -12,14 +12,14 @@
 }
 .contact-section__heading{
     color: var(--text-color-white);
-    size: 34px;
+    font-size: 34px;
     font-family: var(--font-header-title);
     padding-left: 15px;
     padding: 20px;
 }
 .section-card__price-description{
     color: var(--text-color-white);
-    size: 18px;
+    font-size: 18px;
     font-family: var(--font-family);
     padding-bottom: 20px;
     padding-left: 20px;
