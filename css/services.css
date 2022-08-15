@@ -1,27 +1,10 @@
-.section_services-img {
-  padding-top: 145.68%;
-}
-
 .services__slider-card {
     width: 327px;
-    display: flex;
     flex-direction: column;
-    margin: 15px;
-    gap: 20px;
-    float: left;
-    height: 100%;
-    min-height: 1px;
     
-
-}
-.services__slider {
-    display: flex;
-    flex-direction: row;
-
 }
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 270px;
   }
   /*BUTTOM SERVICES*/
 .buttom-effect {
@@ -71,9 +54,7 @@ img {
   background: url(../img/services/bg_services.jpeg) 50% 50% / cover no-repeat fixed;
   color: white;
   font-family: var(--font-header-title);
+  position: relative;
+  margin: auto;
  
-}
-
-@media (min-width: 750px) {
-  padding: 100px 130px 130px 130px;
 }
