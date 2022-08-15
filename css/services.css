@@ -1,10 +1,13 @@
 .services__slider-card {
     width: 327px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
     flex-direction: column;
     
 }
 img {
-    max-width: 270px;
+    max-width: 250px;
   }
   /*BUTTOM SERVICES*/
 .buttom-effect {
@@ -51,10 +54,21 @@ img {
 .fixed__bg {
   padding: 50px 80px 70px 25px;
   min-height: 750px;
-  background: url(../img/services/bg_services.jpeg) 50% 50% / cover no-repeat fixed;
-  color: white;
+  background: linear-gradient( var(--shadow-color), var(--main-background-color)), url(../img/services/bg_services.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  color: var(--text-color);
   font-family: var(--font-header-title);
   position: relative;
   margin: auto;
  
+}
+@media (min-width: 750px) {
+  .services__slider-card{
+    display:inline-flex;
+    padding: 10px;
+  }
+
 }
