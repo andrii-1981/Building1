@@ -5,6 +5,18 @@
     row-gap: 32px;
     flex-direction: column;
 }
+.image__services {
+    width: 400px;
+    height: 800px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+    
+.image__services > .section_services-img {
+      display: block;
+      margin-left: -100px;
+      margin-right: -100px;
+    }
 .section_services-img {
   width: 100%;
   height: auto;

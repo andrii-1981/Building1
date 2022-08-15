@@ -19,6 +19,9 @@
     width: 174px;
     z-index: 10;
 }
+.nav__logo-container>a>img {
+    height: 100%;
+}
 .burger {
     z-index: 7;
     cursor: pointer;
