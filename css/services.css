@@ -4,6 +4,7 @@
     grid-template-columns: 1fr;
     row-gap: 32px;
     flex-direction: column;
+}
 .image__services {
     width: 400px;
     height: 800px;
