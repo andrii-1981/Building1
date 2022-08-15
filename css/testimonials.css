@@ -1,3 +1,7 @@
+.testimonial__container{
+    padding: 100px 32px 55px;
+}
+
 .section__feedbacks{
     display: flex;  
     justify-content: space-around;
@@ -17,6 +21,14 @@
     background-color: #141414;
 }
 
+.testimonials__top-text{
+    max-width: 66.6%;
+}
+
+#testimonials .section__description{
+    font-size: 18px;
+}
+
 .apostrophes{
     width: 70px;
     height: 70px;
@@ -26,8 +38,21 @@
 .testimonial__text{
     color: var(--grey-small-text-color);
     font-family: var(--font-family);
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
+}
+
+.testimonial__text p{
+    margin-top: 20px;
+}
+
+.testimonial__text-date{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.section__feedbacks{
+    margin-top: 20px;
 }
 
 .section__feedbacks > div{
@@ -36,6 +61,8 @@
 
 .section__profile{
     display: flex;
+    padding: 7.5px 0;
+    margin-top: 20px;
 }
 
 .profile-photo{
