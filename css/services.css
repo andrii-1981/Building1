@@ -4,18 +4,6 @@
     grid-template-columns: 1fr;
     row-gap: 32px;
     flex-direction: column;
-.image__services {
-    width: 400px;
-    height: 800px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-}
-    
-.image__services > .section_services-img {
-      display: block;
-      margin-left: -100px;
-      margin-right: -100px;
-    }
 }
 .section_services-img {
   width: 100%;
@@ -66,7 +54,7 @@
 
 /*Fixed background and color text*/
 .fixed__bg {
-  padding: 50px 80px 70px 25px;
+  padding: 100px 80px 70px 25px;
   min-height: 750px;
   background: linear-gradient( var(--shadow-color), var(--main-background-color)), url(../img/services/bg_services.jpeg);
   background-repeat: no-repeat;
@@ -83,6 +71,9 @@
   .services__slider-card{
     display:inline-flex;
     padding: 10px;
+  }
+  .fixed__bg {
+    padding-left: 143px;
   }
 
 }
