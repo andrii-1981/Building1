@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Center Website Template Demo</title>
     <link rel="icon" href="img/header/titlelogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -77,7 +79,8 @@
         <!-- LiliaAamaniuk start -->
         <section class="welcome-section">
             <p class="section__subheading">- Welcome!</p>
-            <h2 class="section__title">Find the Best Place to Prosper and Grow Your Business<span class="dot-color">.</span></h2>
+            <h2 class="section__title">Find the Best Place to Prosper and Grow Your Business<span
+                    class="dot-color">.</span></h2>
             <p class="welcome__description">Rent an office, workplace in our coworking space, or a conference hall for
                 your business needs.</p>
             <div class="feature-container">
@@ -115,7 +118,8 @@
 
             <div class="about_us-container">
                 <p class="section__subheading">- About Us</p>
-                <h2 class="section__title">The Perfect Place to Develop Your Business and Achieve Great Results<span class="dot-color" >.</span></h2>
+                <h2 class="section__title">The Perfect Place to Develop Your Business and Achieve Great Results<span
+                        class="dot-color">.</span></h2>
                 <p class="section__description">Our office center is located in the Boston business district. The Forum
                     center is ideal for a wide variety of businesses of any scale:</p>
                 <ul class="busyness__list">
@@ -145,51 +149,83 @@
 
         <!-- Дана Пилипчук start-->
         <section class="about__space">
-            <p class="section__subheading">- Your Future Neighbours</p>
-            <h2 class="section__title">Work on the Same Floor With These Well-Known Companies<span
-                    class="section__color-text">.</span></h2>
-            <p class="section-text">Get advantage of not only comfortable offices but also networking options.</p>
-            <img width="100" src="img/space-section/logo-adidas.png" class="adidas__logo" alt="adidas-logo">
-            <img width="100" src="img/space-section/logo-apple.png" class="apple__logo" alt="apple-logo">
-            <img width="100" src="img/space-section/logo-boco.png" class="boco__logo" alt="boco-logo">
-            <img width="100" src="img/space-section/logo-bandai.png" class="bandai__logo" alt="bandai-logo">
-            <img width="100" src="img/space-section/logo-walmart.png" class="walmart__logo" alt="walmart-logo">
-            <img width="100" src="img/space-section/logo-ripple.png" class="ripple__logo" alt="ripple-logo">
-            <p class="section__subheading">- Why Choose Us</p>
-            <div class="space__preference">
-                <h2 class="section__title">Move to Forum and Leave Your Worries Behind<span
+            <div class="about__space__neighb">
+                <p class="section__subheading">- Your Future Neighbours</p>
+                <h2 class="section__title">Work on the Same Floor With These Well-Known Companies<span
                         class="section__color-text">.</span></h2>
-                <p class="section__description">We provide our clients with the opportunity to work in the best
-                    conditions with
-                    maximum comfort.</p>
-                <p class="section__description">Over the years of our operation, we have done everything possible to
-                    provide
-                    our clients with the best working conditions. In the Forum business center, you will find everything
-                    you need to run your business.</p>
-                <div>
-                    <p class="square__empl__workspace">12,000 <span class="square__unit">m²</span></p>
-                    <p class="section__description">Free space of all offices and conference rooms available.</p>
-                </div>
-                <div>
-                    <p class="square__empl__workspace">320</p>
-                    <p class="section__description">Employees & staffs service our renters.</p>
-                </div>
-                <div>
-                    <p class="square__empl__workspace">1,150</p>
-                    <p class="section__description">Workspaces in the Forum coworking space.</p>
-                </div>
+                <p class="section__description">Get advantage of not only comfortable offices but also networking
+                    options.</p>
             </div>
-            <div class="Forum__history">
-                <div>
-                    <p class="history__heading__text">- Our History</p>
+            <div id="carousel-products" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel-products" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
-                <div>
-                    <p class="years-number__text">15</p>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/space-section/logo-adidas.png" class="d-block w-30 mx-auto" alt="Adidas">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/space-section/logo-apple.png" class="d-block w-25 mx-auto" alt="Apple">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/space-section/logo-bandai.png" class="d-block w-25 mx-auto" alt="Bandai">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/space-section/logo-boco.png" class="d-block w-25 mx-auto" alt="Boco">
+                  </div>
                 </div>
-                <div>
-                    <p class="history_text">Years of Operation</p>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-products" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-products" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <main>
+            <section class="section__space-preference">
+                <div class="space__preference">
+                    <p class="section__subheading">- Why Choose Us</p>
+                    <h2 class="section__title">Move to Forum and Leave Your Worries Behind<span
+                            class="section__color-text">.</span></h2>
+                    <p class="section__description">We provide our clients with the opportunity to work in the best
+                        conditions with
+                        maximum comfort.</p>
+                    <p class="feature__text">Over the years of our operation, we have done everything possible to
+                        provide
+                        our clients with the best working conditions. In the Forum business center, you will find
+                        everything
+                        you need to run your business.</p>
+                    <div>
+                        <p class="square__empl__workspace">12,000 <span class="square__unit">m²</span></p>
+                        <p class="feature__text">Free space of all offices and conference rooms available.</p>
+                    </div>
+                    <div>
+                        <p class="square__empl__workspace">320</p>
+                        <p class="feature__text">Employees & staffs service our renters.</p>
+                    </div>
+                    <div>
+                        <p class="square__empl__workspace">1,150</p>
+                        <p class="feature__text">Workspaces in the Forum coworking space.</p>
+                    </div>
                 </div>
-            </div>
+                <div class="forum__history">
+                    <div>
+                        <p class="history__heading__text">- Our History</p>
+                    </div>
+                    <div>
+                        <p class="years-number__text">15</p>
+                    </div>
+                    <div>
+                        <p class="history_text">Years of Operation</p>
+                    </div>
+                </div>
+                </div>
+            </section>
         </section>
         <!-- Дана Пилипчук end -->
 
@@ -199,14 +235,16 @@
                 <p class="section__subheading">- Services</p>
                 <h2 class="section__heading">Get Advantage of All Services That We Can Offer for You<span
                         class="section__color-text">.</span></h2>
-                <p class="section__description services__global__description">We have created a unique infrastructure that allows our residents to
+                <p class="section__description services__global__description">We have created a unique infrastructure
+                    that allows our residents to
                     work
                     and relax
                     productively.</p>
                 <div class="services__slider">
                     <article class="services__slider-card">
                         <div class="buttom-effect">
-                            <div class="image__services"><img class="section_services-img" src="img/services/moder-offices.jpeg" alt="Modern Offices"></div>
+                            <div class="image__services"><img class="section_services-img"
+                                    src="img/services/moder-offices.jpeg" alt="Modern Offices"></div>
                             <div class="overlay"></div>
                             <div class="services-buttom"><a href="">Discover More</a></div>
                         </div>
@@ -218,8 +256,8 @@
                     </article>
                     <article class="services__slider-card">
                         <div class="buttom-effect">
-                            <div class="image__services"><img class='section_services-img' src="img/services/conference-rooms.jpeg"
-                                alt="Conference Rooms"></div>
+                            <div class="image__services"><img class='section_services-img'
+                                    src="img/services/conference-rooms.jpeg" alt="Conference Rooms"></div>
                             <div class="overlay"></div>
                             <div class="services-buttom"><a href="">Discover More</a></div>
                         </div>
@@ -231,8 +269,8 @@
                     </article>
                     <article class="services__slider-card">
                         <div class="buttom-effect">
-                            <div class="image__services"><img class='section_services-img' src="img/services/coworking-spaces.jpeg"
-                                alt="Coworking Spaces"></div>
+                            <div class="image__services"><img class='section_services-img'
+                                    src="img/services/coworking-spaces.jpeg" alt="Coworking Spaces"></div>
                             <div class="overlay"></div>
                             <div class="services-buttom"><a href="">Discover More</a></div>
                         </div>
@@ -244,7 +282,8 @@
                     </article>
                     <article class="services__slider-card">
                         <div class="buttom-effect">
-                            <div class="image__services"><img class='section_services-img' src="img/services/restaurants.jpeg" alt="Restaurants"></div>
+                            <div class="image__services"><img class='section_services-img'
+                                    src="img/services/restaurants.jpeg" alt="Restaurants"></div>
                             <div class="overlay"></div>
                             <div class="services-buttom"><a href="">Discover More</a></div>
                         </div>
@@ -256,8 +295,8 @@
                     </article>
                     <article class="services__slider-card">
                         <div class="buttom-effect">
-                            <div class="image__services"><img class="section_services-img" src="img/services/gym-swimm.jpeg"
-                                alt="Gym and Swimming Pool"></div>
+                            <div class="image__services"><img class="section_services-img"
+                                    src="img/services/gym-swimm.jpeg" alt="Gym and Swimming Pool"></div>
                             <div class="overlay"></div>
                             <div class="services-buttom"><a href="">Discover More</a></div>
                         </div>
@@ -448,26 +487,27 @@
                     <p class="section__subheading">
                         - Testimonials
                     </p>
-        
+
                     <h2 class="section__heading">
                         Enjoy Working in Comfortable Well-Equipped Offices<span class="section__color-text">.</span>
                     </h2>
-        
+
                     <p class="section__description">
                         We are happy that more and more companies are renting offices in our building.
                     </p>
                 </div>
-    
-    
+
+
                 <div class="section__feedbacks">
-    
+
                     <!-- START FIRST PROFILE -->
                     <div class="section__feedback-first">
                         <div>
                             <div class="apostrophes">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
-                                    xml:space="preserve" style="max-width:100%" height="100%">
+                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+                                    enable-background="new 0 0 100 100" xml:space="preserve" style="max-width:100%"
+                                    height="100%">
                                     <g style="" fill="currentColor">
                                         <polygon
                                             points="45.454,16.378 11.119,16.378 11.119,50.713 29.547,77.188 42.673,67.431 31.152,50.713 45.454,50.713  "
@@ -483,27 +523,30 @@
                                     </g>
                                 </svg>
                             </div>
-    
+
                             <div class="testimonial__text">
                                 <p>
                                     <em>
                                         “We rent an office in this business center and are completely satisfied with the
                                         service
-                                        they provide. It is really very comfortable here. You can enjoy an excellent working
-                                        atmosphere, all conditions for comfortable work are created. All my teammates love
+                                        they provide. It is really very comfortable here. You can enjoy an excellent
+                                        working
+                                        atmosphere, all conditions for comfortable work are created. All my teammates
+                                        love
                                         our
                                         office and also use free services , the gym especially. I'm glad we were able to
                                         find a
                                         really great place to work all together in Boston."
                                     </em>
                                 </p>
-    
+
                                 <p class="testimonial__text-date">October 28, 2019</p>
-    
+
                             </div>
-    
+
                             <div class="section__profile">
-                                <img class="profile-photo" src="img/profile_photos/jane_peterson.png" alt="Jane Peterson">
+                                <img class="profile-photo" src="img/profile_photos/jane_peterson.png"
+                                    alt="Jane Peterson">
                                 <div class="section__profile-info">
                                     <p class="profile-name">Jane Peterson</p>
                                     <p class="profile-position">CEO at Whole Food Co.</p>
@@ -512,15 +555,16 @@
                         </div>
                     </div>
                     <!-- END FIRST PROFILE -->
-    
-    
+
+
                     <!-- START SECOND PROFILE -->
                     <div class="section__feedback-second">
                         <div class="test">
                             <div class="apostrophes">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
-                                    xml:space="preserve" style="max-width:100%" height="100%">
+                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+                                    enable-background="new 0 0 100 100" xml:space="preserve" style="max-width:100%"
+                                    height="100%">
                                     <g style="" fill="currentColor">
                                         <polygon
                                             points="45.454,16.378 11.119,16.378 11.119,50.713 29.547,77.188 42.673,67.431 31.152,50.713 45.454,50.713  "
@@ -536,25 +580,28 @@
                                     </g>
                                 </svg>
                             </div>
-    
+
                             <div class="testimonial__text">
                                 <p>
                                     <em>
-                                        “When we were planning to launch a startup, we didn't have much budget. Therefore,
+                                        “When we were planning to launch a startup, we didn't have much budget.
+                                        Therefore,
                                         finding
-                                        an office was very difficult. Finally, I accidentally visited this business center
+                                        an office was very difficult. Finally, I accidentally visited this business
+                                        center
                                         and
                                         found
                                         just the perfect option. We have been working in this business center for over a
                                         year,
                                         and
-                                        it is really very convenient and comfortable here. We are happy to work in the Forum
+                                        it is really very convenient and comfortable here. We are happy to work in the
+                                        Forum
                                         building."
                                     </em>
                                 </p>
                                 <p>March 02, 2020</p>
                             </div>
-    
+
                             <div class="section__profile">
                                 <img class="profile-photo" src="img/profile_photos/douglas_petergrew.png"
                                     alt="Douglas Petegrew">
@@ -566,14 +613,15 @@
                         </div>
                     </div>
                     <!-- END SECOND PROFILE -->
-    
+
                     <!-- START TIHRD PROFILE -->
                     <div class="section__feedback-third">
                         <div>
                             <div class="apostrophes">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
-                                    xml:space="preserve" style="max-width:100%" height="100%">
+                                    version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
+                                    enable-background="new 0 0 100 100" xml:space="preserve" style="max-width:100%"
+                                    height="100%">
                                     <g style="" fill="currentColor">
                                         <polygon
                                             points="45.454,16.378 11.119,16.378 11.119,50.713 29.547,77.188 42.673,67.431 31.152,50.713 45.454,50.713  "
@@ -589,7 +637,7 @@
                                     </g>
                                 </svg>
                             </div>
-    
+
                             <div class="testimonial__text">
                                 <p>
                                     <em>
@@ -599,9 +647,11 @@
                                         coworking spaces. My favorite coworking space is located in the Forum business
                                         center,
                                         of
-                                        course. It is a really calm and very quiet place. The Internet is very fast, there
+                                        course. It is a really calm and very quiet place. The Internet is very fast,
+                                        there
                                         are
-                                        always many free workplaces, and the price for the subscription is very attractive.
+                                        always many free workplaces, and the price for the subscription is very
+                                        attractive.
                                         I
                                         always
                                         come here with great pleasure."
@@ -609,7 +659,7 @@
                                 </p>
                                 <p>March 02, 2020</p>
                             </div>
-    
+
                             <div class="section__profile">
                                 <img class="profile-photo" src="img/profile_photos/dean_simman.png" alt="Dean Simman">
                                 <div class="section__profile-info">
@@ -620,7 +670,7 @@
                         </div>
                     </div>
                     <!-- END THIRD PROFILE -->
-    
+
                 </div>
             </div>
         </section>
@@ -633,7 +683,8 @@
                     <p id="contacts_us"><span class="section__subheading">- Contact Form</span></p>
                     <h2 class="contact-section__heading">Offices, Workplaces, And Conference Rooms for Businesses of Any
                         Scale<span class="section__color-text">.</span></h2>
-                    <p class="section-card__price-description">Feel free to contact us to learn more about the options we offer:
+                    <p class="section-card__price-description">Feel free to contact us to learn more about the options
+                        we offer:
                     </p>
                     <form class="contact_form-send" action="/" method="post">
                         <input type="text" class="contact__inputs" placeholder="Enter your full name*" required>
@@ -716,6 +767,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
     <!-- Alexander Shumulovskyi end -->
     <script src="js/burger.js"></script>
 </body>

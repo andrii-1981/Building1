@@ -1,0 +1,63 @@
+.about__space {
+     background-color: var(--background-contact-color);
+     padding: 0 24px;
+}
+
+@media (min-width:750px) {  
+    .about__space__neighb {
+     padding: 40px 90px 40px 90px;
+    }
+}
+
+.about__space__neighb {
+    padding: 40px 90px 40px 90px;  
+    }
+   
+
+   @media (min-width:750px) {  
+    .space__preference {
+     padding: 40px 90px 40px 90px;
+    }
+}
+
+.space__preference {
+     padding: 40px 90px 40px 90px;
+   }
+   
+   .square__empl__workspace {
+     font-family:'Lato', sans-serif;
+     color: var(--text-color);
+     font-size: 34px;
+   }
+
+  .history__heading__text {
+     color: var(--text-color);
+     font-size: 16px;
+     font-weight: bold;
+     font-family: var(--font-family);
+  }
+
+
+   .years-number__text {
+    font-family:'Lato', sans-serif;
+    color: var(--section__subheading-color);
+    font-size: 200px;
+   }
+
+   .history_text {
+    color: var(--section__subheading-color);
+     font-size: 22px;
+     font-weight: bold;
+     font-family: var(--font-family);
+   }
+
+   .forum__history {
+      background-image: url(../img/space-section/years_background.webp);
+      width: 465px;
+      height: 498px;
+      text-align: center;
+   }
+
+   .section__space-preference {
+    display: flex;    
+   }
