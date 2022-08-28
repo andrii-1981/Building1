@@ -1,3 +1,6 @@
+.lock {
+    overflow: hidden;
+}
 .header__container {
     background-image: url(../img/header/header-background.jpeg);
     background-size: cover;
