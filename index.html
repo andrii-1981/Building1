@@ -377,7 +377,8 @@
                                 <span>fully furnished offices </span>
                             </li>
                         </ul>
-                        <a class="pricing__button" href="#">Rent an Office</a>
+                        <button class="pricing__button trigger">Rent an Office</button>
+                        <!-- <a class="pricing__button" href="#">Rent an Office</a> -->
                     </div>
                     <div class="pricing__pricing-card">
                         <h3 class="card__title">Enterprise</h3>
@@ -438,7 +439,8 @@
                                 <span>exclusive design</span>
                             </li>
                         </ul>
-                        <a class="pricing__button" href="#">Rent an Office</a>
+                        <button class="pricing__button trigger">Rent an Office</button>
+                        <!-- <a class="pricing__button" href="#">Rent an Office</a> -->
                     </div>
                 </div>
             </div>
@@ -779,11 +781,29 @@
             </div>
         </div>
     </footer>
+
+    <div class="pricing-popup-window">
+        <div class="pricing-popup">
+            <div class="close-button-popup">&times;</div>
+            <h2 class="popup-heading">Contact Us</h2>
+            <form class="contact_form-send" action="/" method="post">
+                <input type="text" class="contact__inputs" placeholder="Enter your full name*" required>
+                <input type="text" class="contact__inputs" placeholder="Enter your phone number*" required>
+                <input type="text" class="contact__inputs" placeholder="Enter your e-mail*" required>
+                <textarea class="contact__textarea" name="contact__textarea" id="contact__textarea" cols="30"
+                    rows="10" placeholder="Type your message" maxlength="2000" required></textarea>
+                <button class="contact__btn">Scheudule a Visit</button>
+            </form>
+        </div>
+    </div>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
     <!-- Alexander Shumulovskyi end -->
     <script src="js/burger.js"></script>
+    <script src="js/pricing-popup.js"></script>
 </body>
 
 </html>

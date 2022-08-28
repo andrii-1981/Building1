@@ -109,8 +109,7 @@
     width: 24px;
 }
 
-.pricing__button:link,
-.pricing__button:visited {
+.pricing__button {
     background-color: var(--btn-color);
     font-size: 14px;
     font-weight: 600;
@@ -120,10 +119,10 @@
     padding: 14px 28px 14px 28px;
     margin: 28px 0 28px 28px;
     display: inline-block;
+    border: none;
 }
 
-.pricing__button:hover,
-.pricing__button:active {
+.pricing__button:hover {
     background-color: var(--btn-color-hover);
 }
 
