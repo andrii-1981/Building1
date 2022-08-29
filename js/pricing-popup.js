@@ -1,14 +1,18 @@
 (function() {
     const pricingPopupWindow = document.querySelector(".pricing-popup-window");
-    const trigger = document.querySelector(".trigger");
-    const closeButton = document.querySelector(".close-button-popup");
+    const popup = document.querySelector(".pricing-popup")
+    const openPopupBtn = document.querySelector(".open-popup");
+    const closeBtnPopup = document.querySelector(".close-button-popup");
     
-    function toggleModal(ev) {
+
+    function openPopup(el) {
         pricingPopupWindow.classList.toggle("show-modal");
-        ev.stopPropagation();
+        el.stopPropagation();
     }
     
-    trigger.addEventListener("click", toggleModal);
-    closeButton.addEventListener("click", toggleModal);
-    pricingPopupWindow.addEventListener("click", toggleModal);
+    openPopupBtn.addEventListener("click", openPopup);
+    closeBtnPopup.addEventListener("click", openPopup);
+    pricingPopupWindow.addEventListener("click", openPopup);
 })();
+
+
