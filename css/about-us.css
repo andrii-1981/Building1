@@ -4,10 +4,16 @@
 }
 
 .about-us__img {
-  width: 272px;  
+    width: 100%;
+    height: auto;
+}
+
+.container-about-us__img {
+    width: 100%;
 }
 
 .about_us-container {
+    width: 100%;
     padding: 38px 0 15px 0;
 }
 
@@ -35,7 +41,7 @@
 
 .section__description {
     font-family: var(--font-family);
-    color:var(--text-color-white);
+    color: var(--text-color-white);
 }
 
 .busyness__item-img {
@@ -53,21 +59,28 @@
     color: var(--text-color-white);
     font-weight: bold;
     border: 0;
+    padding: 18px 35px;
+    text-decoration: none;
 }
 
 .link__button:hover {
     background-color: var(--btn-color-hover);
 }
 
-@media (min-width:750px) {  
+@media (min-width:750px) {
     .about_us-section {
         background-color: var(--background-contact-color);
         padding: 40px 90px 40px 90px;
     }
 
-    .about-us__img {
-        width: 570px;
+    .container-about-us__img {
+        width: 50%;
         padding: 0 15px;
+    }
+
+    .about_us-container {
+        width: 50%;
+        padding: 38px 0 15px 0;
     }
 
     .about_us-section {
