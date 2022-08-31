@@ -12,4 +12,4 @@
       burgerLinks.classList.remove("burger__links-active");
       body.classList.remove("lock");
     });
-  })();
+})();
