@@ -68,7 +68,8 @@
     margin-top: 25px;
     text-align: center;
     font-size: 22px;
-    color: gray;
+    color: var(--grey-small-text-color);
+    font-family: var(--font-family);
 }
 
 
