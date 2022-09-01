@@ -29,6 +29,9 @@
             });
           }
         // setTimeout(status.hidden = true, 10 * 1000);
+        setTimeout(() =>{
+          status.hidden = true;
+        }, 5000)
         })
         .catch((error) => {
           status.innerHTML = "Oops! There was a problem submitting your form";
