@@ -55,6 +55,7 @@
     background-color: var(--section__subheading-color);
 }
 .awards-title{
+    padding-left: 20px;
     max-width: 1130px;
     margin: auto;
     margin-bottom: 70px;
