@@ -524,7 +524,7 @@
                     </p>
                     <form id="contact_form-send-main" class="contact_form-send-main" action="https://formspree.io/f/mrgdbwbr" method="post">
                         <input type="text" class="contact__inputs" placeholder="Enter your full name*" required>
-                        <input type="text" class="contact__inputs" placeholder="Enter your phone number*" required>
+                        <input type="text" name="phone" class="contact__inputs" placeholder="Enter your phone number*" required>
                         <input type="text" class="contact__inputs" placeholder="Enter your e-mail*" required>
                         <textarea class="contact__textarea" name="contact__textarea" id="contact__textarea" cols="30"
                             rows="10" placeholder="Type your message" maxlength="2000" required></textarea>
@@ -623,8 +623,8 @@
             <h2 class="popup-heading">Contact Us</h2>
             <form class="contact_form-send" action="/" method="post">
                 <input type="text" class="contact__inputs" placeholder="Enter your full name*" required>
-                <input type="text" class="contact__inputs" placeholder="Enter your phone number*" required>
-                <input type="text" class="contact__inputs" placeholder="Enter your e-mail*" required>
+                <input type="text"  name="phone" class="contact__inputs" placeholder="Enter your phone number*" required>
+                <input type="text"  class="contact__inputs" placeholder="Enter your e-mail*" required>
                 <textarea class="contact__textarea" name="contact__textarea" id="contact__textarea" cols="30"
                     rows="10" placeholder="Type your message" maxlength="2000" required></textarea>
                 <button class="contact__btn">Scheudule a Visit</button>
@@ -641,6 +641,7 @@
     <script src="js/pricing-popup.js"></script>
     <script src="js/testimonials-carousel.js"></script>
     <script src="js/contact-form-send.js"></script>
+    <script src="js/mask.js"></script>
 </body>
 
 </html>
