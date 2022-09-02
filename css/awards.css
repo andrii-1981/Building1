@@ -65,7 +65,7 @@
         display: flex;
         margin: auto;
         justify-content: space-between;
-        max-width: 113g0px;
+        max-width: 1130px;
         border-bottom: 1px solid var(--color-header-location);
         align-items: center;
     }
