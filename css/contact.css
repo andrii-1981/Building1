@@ -61,9 +61,11 @@
     border: 0;
     background-color: var(--section__subheading-color);
     color: var(--text-color-white);
-
-
 }   
+
+.contact__btn:hover{
+    background-color: var(--btn-color-hover);
+    }
 #contact-form-status{
     margin-top: 25px;
     text-align: center;
