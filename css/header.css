@@ -197,6 +197,7 @@
 }
 .contacts__location p {
     color: var(--color-header-location);
+    margin: 0;
 }
 @media (min-width:767.5px) {
     .contacts__container {
